@@ -23,6 +23,8 @@
 		B3A94E4728D9B51800BA2CD6 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A94E4128D9B51800BA2CD6 /* FMResultSet.m */; };
 		B3A94E4828D9B51800BA2CD6 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A94E4228D9B51800BA2CD6 /* FMDatabaseQueue.m */; };
 		B3A94E4A28D9B54800BA2CD6 /* artists.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = B3A94E4928D9B54800BA2CD6 /* artists.sqlite */; };
+		B3A94E4C28D9B5CC00BA2CD6 /* QuizScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A94E4B28D9B5CC00BA2CD6 /* QuizScreenViewController.swift */; };
+		B3A94E4E28D9B5EC00BA2CD6 /* ResultScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A94E4D28D9B5EC00BA2CD6 /* ResultScreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +72,8 @@
 		B3A94E4128D9B51800BA2CD6 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
 		B3A94E4228D9B51800BA2CD6 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
 		B3A94E4928D9B54800BA2CD6 /* artists.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = artists.sqlite; sourceTree = "<group>"; };
+		B3A94E4B28D9B5CC00BA2CD6 /* QuizScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizScreenViewController.swift; sourceTree = "<group>"; };
+		B3A94E4D28D9B5EC00BA2CD6 /* ResultScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultScreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +145,8 @@
 				B3A94E4128D9B51800BA2CD6 /* FMResultSet.m */,
 				B3A94E3628D9B51700BA2CD6 /* Artists-app-Bridging-Header.h */,
 				B3A94E4928D9B54800BA2CD6 /* artists.sqlite */,
+				B3A94E4B28D9B5CC00BA2CD6 /* QuizScreenViewController.swift */,
+				B3A94E4D28D9B5EC00BA2CD6 /* ResultScreenViewController.swift */,
 			);
 			path = "Artists-app";
 			sourceTree = "<group>";
@@ -300,10 +306,12 @@
 				B3A94E4828D9B51800BA2CD6 /* FMDatabaseQueue.m in Sources */,
 				B3A94E4628D9B51800BA2CD6 /* FMDatabasePool.m in Sources */,
 				B3A94E4728D9B51800BA2CD6 /* FMResultSet.m in Sources */,
+				B3A94E4E28D9B5EC00BA2CD6 /* ResultScreenViewController.swift in Sources */,
 				B3A94E0728D9B1AA00BA2CD6 /* AppDelegate.swift in Sources */,
 				B3A94E0928D9B1AA00BA2CD6 /* SceneDelegate.swift in Sources */,
 				B3A94E4428D9B51800BA2CD6 /* FMDatabase.m in Sources */,
 				B3A94E4328D9B51800BA2CD6 /* FMDatabaseAdditions.m in Sources */,
+				B3A94E4C28D9B5CC00BA2CD6 /* QuizScreenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
