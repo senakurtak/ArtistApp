@@ -16,6 +16,13 @@
 		B3A94E1E28D9B1AC00BA2CD6 /* Artists_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A94E1D28D9B1AC00BA2CD6 /* Artists_appTests.swift */; };
 		B3A94E2828D9B1AC00BA2CD6 /* Artists_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A94E2728D9B1AC00BA2CD6 /* Artists_appUITests.swift */; };
 		B3A94E2A28D9B1AC00BA2CD6 /* Artists_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A94E2928D9B1AC00BA2CD6 /* Artists_appUITestsLaunchTests.swift */; };
+		B3A94E4328D9B51800BA2CD6 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A94E3928D9B51800BA2CD6 /* FMDatabaseAdditions.m */; };
+		B3A94E4428D9B51800BA2CD6 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A94E3C28D9B51800BA2CD6 /* FMDatabase.m */; };
+		B3A94E4528D9B51800BA2CD6 /* bayrakquiz.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = B3A94E3F28D9B51800BA2CD6 /* bayrakquiz.sqlite */; };
+		B3A94E4628D9B51800BA2CD6 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A94E4028D9B51800BA2CD6 /* FMDatabasePool.m */; };
+		B3A94E4728D9B51800BA2CD6 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A94E4128D9B51800BA2CD6 /* FMResultSet.m */; };
+		B3A94E4828D9B51800BA2CD6 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A94E4228D9B51800BA2CD6 /* FMDatabaseQueue.m */; };
+		B3A94E4A28D9B54800BA2CD6 /* artists.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = B3A94E4928D9B54800BA2CD6 /* artists.sqlite */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +56,20 @@
 		B3A94E2328D9B1AC00BA2CD6 /* Artists-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Artists-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3A94E2728D9B1AC00BA2CD6 /* Artists_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artists_appUITests.swift; sourceTree = "<group>"; };
 		B3A94E2928D9B1AC00BA2CD6 /* Artists_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artists_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B3A94E3628D9B51700BA2CD6 /* Artists-app-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Artists-app-Bridging-Header.h"; sourceTree = "<group>"; };
+		B3A94E3728D9B51800BA2CD6 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		B3A94E3828D9B51800BA2CD6 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		B3A94E3928D9B51800BA2CD6 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		B3A94E3A28D9B51800BA2CD6 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		B3A94E3B28D9B51800BA2CD6 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		B3A94E3C28D9B51800BA2CD6 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		B3A94E3D28D9B51800BA2CD6 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		B3A94E3E28D9B51800BA2CD6 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		B3A94E3F28D9B51800BA2CD6 /* bayrakquiz.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = bayrakquiz.sqlite; sourceTree = "<group>"; };
+		B3A94E4028D9B51800BA2CD6 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		B3A94E4128D9B51800BA2CD6 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		B3A94E4228D9B51800BA2CD6 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		B3A94E4928D9B54800BA2CD6 /* artists.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = artists.sqlite; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +127,20 @@
 				B3A94E0F28D9B1AB00BA2CD6 /* Assets.xcassets */,
 				B3A94E1128D9B1AB00BA2CD6 /* LaunchScreen.storyboard */,
 				B3A94E1428D9B1AB00BA2CD6 /* Info.plist */,
+				B3A94E3F28D9B51800BA2CD6 /* bayrakquiz.sqlite */,
+				B3A94E3B28D9B51800BA2CD6 /* FMDatabase.h */,
+				B3A94E3C28D9B51800BA2CD6 /* FMDatabase.m */,
+				B3A94E3828D9B51800BA2CD6 /* FMDatabaseAdditions.h */,
+				B3A94E3928D9B51800BA2CD6 /* FMDatabaseAdditions.m */,
+				B3A94E3A28D9B51800BA2CD6 /* FMDatabasePool.h */,
+				B3A94E4028D9B51800BA2CD6 /* FMDatabasePool.m */,
+				B3A94E3728D9B51800BA2CD6 /* FMDatabaseQueue.h */,
+				B3A94E4228D9B51800BA2CD6 /* FMDatabaseQueue.m */,
+				B3A94E3E28D9B51800BA2CD6 /* FMDB.h */,
+				B3A94E3D28D9B51800BA2CD6 /* FMResultSet.h */,
+				B3A94E4128D9B51800BA2CD6 /* FMResultSet.m */,
+				B3A94E3628D9B51700BA2CD6 /* Artists-app-Bridging-Header.h */,
+				B3A94E4928D9B54800BA2CD6 /* artists.sqlite */,
 			);
 			path = "Artists-app";
 			sourceTree = "<group>";
@@ -195,6 +230,7 @@
 				TargetAttributes = {
 					B3A94E0228D9B1AA00BA2CD6 = {
 						CreatedOnToolsVersion = 13.2.1;
+						LastSwiftMigration = 1320;
 					};
 					B3A94E1828D9B1AC00BA2CD6 = {
 						CreatedOnToolsVersion = 13.2.1;
@@ -231,6 +267,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3A94E4528D9B51800BA2CD6 /* bayrakquiz.sqlite in Resources */,
+				B3A94E4A28D9B54800BA2CD6 /* artists.sqlite in Resources */,
 				B3A94E1328D9B1AB00BA2CD6 /* LaunchScreen.storyboard in Resources */,
 				B3A94E1028D9B1AB00BA2CD6 /* Assets.xcassets in Resources */,
 				B3A94E0E28D9B1AA00BA2CD6 /* Main.storyboard in Resources */,
@@ -259,8 +297,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3A94E0B28D9B1AA00BA2CD6 /* ViewController.swift in Sources */,
+				B3A94E4828D9B51800BA2CD6 /* FMDatabaseQueue.m in Sources */,
+				B3A94E4628D9B51800BA2CD6 /* FMDatabasePool.m in Sources */,
+				B3A94E4728D9B51800BA2CD6 /* FMResultSet.m in Sources */,
 				B3A94E0728D9B1AA00BA2CD6 /* AppDelegate.swift in Sources */,
 				B3A94E0928D9B1AA00BA2CD6 /* SceneDelegate.swift in Sources */,
+				B3A94E4428D9B51800BA2CD6 /* FMDatabase.m in Sources */,
+				B3A94E4328D9B51800BA2CD6 /* FMDatabaseAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +480,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3VFN5926F6;
@@ -455,6 +499,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.senakurtak.Artists-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Artists-app/Artists-app-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -465,6 +511,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3VFN5926F6;
@@ -483,6 +530,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.senakurtak.Artists-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Artists-app/Artists-app-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
