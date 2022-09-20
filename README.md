@@ -1,7 +1,7 @@
 
 # ArtistApp
 
-ArtistApp consist of Home Screen, Quiz Screen and Result Screen.
+ArtistApp consists of Home Screen, Quiz Screen and Result Screen.
 
 # What does ArtistApp do?
 
@@ -9,7 +9,7 @@ ArtistApp is a quiz app which evaluate Baroque music composer knowledge with ran
 
 # Technologies
 
-+ SQlite 
++ SQLite 
 
 # Screenshots
 Home Screen |  Quiz Screen | Result Screen
