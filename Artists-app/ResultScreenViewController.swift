@@ -9,21 +9,26 @@ import UIKit
 
 class ResultScreenViewController: UIViewController {
 
+    @IBOutlet weak var labelPerc: UILabel!
+    @IBOutlet weak var labelResult: UILabel!
+    var numberofTrue : Int?
+
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        navigationItem.hidesBackButton = true
+        
+        if let d = numberofTrue{
+            labelResult.text = "\(d) True \(8-d) False"
+            labelPerc.text = "%\(d*100/8) "
+        }
+
+    }
+
+
+    @IBAction func tryAgain(_ sender: Any) {
+        navigationController?.popToRootViewController(animated: true)
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
