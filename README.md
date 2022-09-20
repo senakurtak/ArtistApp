@@ -5,7 +5,7 @@ ArtistApp consist of Home Screen, Quiz Screen and Result Screen.
 
 # What does ArtistApp do?
 
-ArtistApp is a quiz app which evaluate Barock music composer knowledge with random 8 different artist image. End of the quiz, user will see the score on Result Screen
+ArtistApp is a quiz app which evaluate Baroque music composer knowledge with random 8 different artist image. End of the quiz, user will see the score on Result Screen
 
 # Technologies
 
